@@ -180,7 +180,7 @@
         
         Neste caso, estamos dando o apelido *origin* para o link https://github.com/username/repository.
         
-        Esse apelido (*origin*) ? apenas uma convenção que usamos para representar o repositório remoto mais comum que você se conecta a partir deste repositório local.
+        Esse apelido (*origin*) é apenas uma convenção que usamos para representar o repositório remoto mais comum que você se conecta a partir deste repositório local.
     
         Para saber todas as vias de conexão remota do seu repositório local:
 
