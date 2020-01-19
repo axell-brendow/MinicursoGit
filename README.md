@@ -51,7 +51,7 @@
 
     3. Configurar o seu nome de usuário do GitHub ou Bitbucket para identificar futuras interações.
 
-        ```git config --global user.name <seu_nome_de_usu?rio>```
+        ```git config --global user.name <seu_nome_de_usuário>```
 
     4. Configurar o seu email de usuário do GitHub ou Bitbucket para identificar futuras interações.
 
@@ -94,12 +94,12 @@
         OBS.:
         É possível configurar um editor padrão:
 
-        ```git config --global core.editor emacs```
+        ```git config --global core.editor <nome_do_executavel_do_editor>``` ex.: notepad++
 
         OBS.:
         É possível configurar um comparador padrão (Útil para quando tivermos mais de uma versão dos arquivos):
 
-        ```git config --global merge.tool  diff```
+        ```git config --global merge.tool <nome_do_executavel_do_comparador>``` ex.: diff
 
         OBS.:
         Para conferir as configurações:
@@ -109,11 +109,11 @@
         OBS.:
         Para obter informações sobre os comandos, a qualquer momento:
 
-        ```git help comando```
+        ```git help <comando>```
 
-        ```git comando --help```
+        ```git <comando> --help```
 
-        ```man git-comando```
+        ```man git-<comando>```
 
         Por exemplo:
 
@@ -160,7 +160,7 @@
 
         Se desejar mudar o autor do último commit feito, primeiro faça o ```git config user.name``` e o ```git config user.email``` e, então, rode:
 
-        ```git commit --reset-author```
+        ```git commit --amend --reset-author```
 
     Transição dos arquivos para os comandos git add, commit e checkout:
 
@@ -174,7 +174,7 @@
 
     1. Para linkar o seu repositório local com um repositório remoto:
 
-        ```git remote add origin "https://github.com/username/repository"```
+        ```git remote add origin "https://github.com/USUARIO/REPOSITORIO"```
 
         O comando ```git remote add <apelido_repo> <url>``` serve para adicionar vias de conexão entre o seu repositório local e um repositório remoto.
         
