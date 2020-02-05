@@ -1,5 +1,7 @@
 # CONTROLE DE VERSÕES POR GIT
 
+Instalação e alguns usos
+
 ## Primeiros passos
 
 1. Instalar git
